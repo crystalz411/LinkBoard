@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Linkboard prototype</title>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="linkcontroller.js"></script>
+
+    <script type="text/javascript">
+
+    </script>
+    <style type="text/css">
+        body,
+        h1,
+        div {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Arial, Helvetica
+        }
+    </style>
+
+</head>
+
+<body>
+    <div ng-app="app">
+        <h1>Linkboard</h1>
+        <div ng-controller="linkcontroller as ctrl">
+
+            <label for="searchbox"> Seacrh: <input type="text" id="searchbox" name="searchbox" /></label>
+            
+            <br />
+            Add Link: <input type="text" id="linkurl" name="linkurl" /> Title: <input type="text" id="linktitle"
+                name="linktitle" /> <input type="button" value="Add Link" ng-click="ctrl.addLink('http://www.firefox.com', 'Firefox') "/>
+
+            <ul>
+                <li ng-repeat="link in ctrl.links"> <a href="{{link.link}}"> {{link.title}} </a> </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
