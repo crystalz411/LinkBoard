@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T21:57:59.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="4UQrWuFUQ8QCxsedky3x" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-22T22:02:25.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="_VmOcLCiSgesZTHy9AhK" version="13.10.1" type="github">
   <diagram id="DchAP9sOTFPFpCIIkn_s" name="Page-1">
     <mxGraphModel dx="1609" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="s764aHb25zaueQciMdZv-1" value="System Agent" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="50" width="120" height="80" as="geometry" />
+          <mxGeometry x="250" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s764aHb25zaueQciMdZv-3" value="Port Scanning evaluation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="170" width="120" height="40" as="geometry" />
+          <mxGeometry x="230" y="130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s764aHb25zaueQciMdZv-4" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-3" target="s764aHb25zaueQciMdZv-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -16,22 +16,19 @@
             <mxPoint x="430" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-5" value="Ports 80/443 Open?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="240" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-6" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-5" target="s764aHb25zaueQciMdZv-3">
+        <mxCell id="s764aHb25zaueQciMdZv-6" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-23" target="s764aHb25zaueQciMdZv-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="220" as="sourcePoint" />
+            <mxPoint x="100" y="240" as="sourcePoint" />
             <mxPoint x="430" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s764aHb25zaueQciMdZv-7" value="Web Application identified. OWASP suite of tests applicable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="310" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-8" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-7" target="s764aHb25zaueQciMdZv-5">
+        <mxCell id="s764aHb25zaueQciMdZv-8" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-7" target="s764aHb25zaueQciMdZv-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="190" y="250" as="sourcePoint" />
-            <mxPoint x="320" y="220" as="targetPoint" />
+            <mxPoint x="100" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s764aHb25zaueQciMdZv-9" value="SQL injection testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -64,11 +61,32 @@
         <mxCell id="s764aHb25zaueQciMdZv-17" value="Web server fingerprinting (Software/version of Web Server)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="310" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-18" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-17" target="s764aHb25zaueQciMdZv-5">
+        <mxCell id="s764aHb25zaueQciMdZv-18" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-17" target="s764aHb25zaueQciMdZv-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="190" y="320" as="sourcePoint" />
-            <mxPoint x="190" y="290" as="targetPoint" />
+            <mxPoint x="100" y="280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-20" value="FTP Server Identified. Evaluate vulnerabilities with malicious FTP protocol payloads" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="310" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-21" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-26" target="s764aHb25zaueQciMdZv-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="210" as="sourcePoint" />
+            <mxPoint x="300" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-22" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-20" target="s764aHb25zaueQciMdZv-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="250" as="sourcePoint" />
+            <mxPoint x="310" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-23" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;Ports 80/443 Open?&lt;/span&gt;&#xa;&#xa;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-26" value="&lt;font face=&quot;helvetica&quot;&gt;Port 21 Open?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="200" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
