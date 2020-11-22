@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T22:21:57.652Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="VwFQWghKUYg8JmrkcQoG" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-22T22:25:35.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="QQBBwb57nk5gH6i5HPsI" version="13.10.1" type="github">
   <diagram id="DchAP9sOTFPFpCIIkn_s" name="Page-1">
     <mxGraphModel dx="1609" dy="1549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,10 +119,19 @@
           <mxGeometry y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s764aHb25zaueQciMdZv-40" value="&lt;font face=&quot;helvetica&quot;&gt;TCP Ports 5800-5820&lt;br&gt;5900-5920?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="-190" width="80" height="60" as="geometry" />
+          <mxGeometry x="420" y="-180" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s764aHb25zaueQciMdZv-42" value="VNC Server Identified. Attempt to discover misconfiguration or week credentials and gain access to the remote machine." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="525" y="-180" width="210" height="60" as="geometry" />
+          <mxGeometry x="510" y="-230" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-43" value="Brute Force attack - Credential stuffing attack. Attempt to find weak passwords" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="-200" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-44" value="&lt;font face=&quot;helvetica&quot;&gt;TCP Port 3306 Open?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-320" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-45" value="MySQL/MariaDB Server Identified." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-340" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
