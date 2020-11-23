@@ -1,137 +1,188 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T22:25:35.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="QQBBwb57nk5gH6i5HPsI" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T01:11:02.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="gP6UE9bkctRWGLPTUh1L" version="13.10.1" type="github">
   <diagram id="DchAP9sOTFPFpCIIkn_s" name="Page-1">
-    <mxGraphModel dx="1609" dy="1549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2061" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="s764aHb25zaueQciMdZv-1" value="System Agent" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="50" width="120" height="60" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-1" value="System Agent" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="221.25" y="-190" width="122.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-3" value="Port Scanning evaluation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="130" width="120" height="40" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-3" value="Port Scanning evaluation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="215" y="70" width="135" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-4" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-3" target="s764aHb25zaueQciMdZv-1">
+        <mxCell id="s764aHb25zaueQciMdZv-4" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="s764aHb25zaueQciMdZv-3" target="s764aHb25zaueQciMdZv-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="220" as="sourcePoint" />
             <mxPoint x="430" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-6" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-23" target="s764aHb25zaueQciMdZv-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="100" y="240" as="sourcePoint" />
-            <mxPoint x="430" y="170" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="s764aHb25zaueQciMdZv-7" value="Web Application identified. OWASP suite of tests applicable" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-65" y="200" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-7" value="Web Application identified. OWASP suite of tests applicable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="310" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-8" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-7" target="s764aHb25zaueQciMdZv-23">
+        <mxCell id="s764aHb25zaueQciMdZv-8" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="s764aHb25zaueQciMdZv-7" target="s764aHb25zaueQciMdZv-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="190" y="250" as="sourcePoint" />
             <mxPoint x="100" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-9" value="SQL injection testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="410" width="120" height="30" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-9" value="SQL injection testing" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-65" y="310" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-10" value="XSS Attack" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="440" width="120" height="30" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-10" value="XSS Attack" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-270" y="270" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-11" value="Sensitive Data Exposure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="430" width="120" height="30" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-11" value="Sensitive Data Exposure" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="330" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-13" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-10" target="s764aHb25zaueQciMdZv-7">
+        <mxCell id="s764aHb25zaueQciMdZv-13" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="s764aHb25zaueQciMdZv-10" target="s764aHb25zaueQciMdZv-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="420" as="sourcePoint" />
             <mxPoint x="360" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-15" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-11" target="s764aHb25zaueQciMdZv-7">
+        <mxCell id="s764aHb25zaueQciMdZv-15" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="s764aHb25zaueQciMdZv-11" target="s764aHb25zaueQciMdZv-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="183.33333333333337" y="420" as="sourcePoint" />
             <mxPoint x="190" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-16" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-7" target="s764aHb25zaueQciMdZv-9">
+        <mxCell id="s764aHb25zaueQciMdZv-16" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="s764aHb25zaueQciMdZv-7" target="s764aHb25zaueQciMdZv-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="264.1176470588234" y="460" as="sourcePoint" />
             <mxPoint x="190" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-17" value="Web server fingerprinting (Software/version of Web Server)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="310" width="150" height="40" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-17" value="Web server fingerprinting (Software/version of Web Server)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-290" y="80" width="155" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-18" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-17" target="s764aHb25zaueQciMdZv-23">
+        <mxCell id="s764aHb25zaueQciMdZv-18" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="s764aHb25zaueQciMdZv-17" target="s764aHb25zaueQciMdZv-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="190" y="320" as="sourcePoint" />
             <mxPoint x="100" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-20" value="FTP Server Identified. Evaluate vulnerabilities with malicious FTP protocol payloads" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="274" y="310" width="140" height="80" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-20" value="FTP Server Identified. Evaluate vulnerabilities with malicious FTP protocol payloads" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="300" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-21" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-26" target="s764aHb25zaueQciMdZv-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="210" as="sourcePoint" />
-            <mxPoint x="300" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-22" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-20" target="s764aHb25zaueQciMdZv-26">
+        <mxCell id="s764aHb25zaueQciMdZv-22" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="s764aHb25zaueQciMdZv-20" target="s764aHb25zaueQciMdZv-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="250" as="sourcePoint" />
             <mxPoint x="310" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-23" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;TCP Ports 80/443 Open?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="220" width="80" height="60" as="geometry" />
+        <mxCell id="AUVioqDt2yypRba_NBfS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-23" target="s764aHb25zaueQciMdZv-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-26" value="&lt;font face=&quot;helvetica&quot;&gt;TCP Port 21 Open?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="200" width="80" height="60" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-23" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;TCP Ports 80/443 Open?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="70" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-29" value="&lt;font face=&quot;helvetica&quot;&gt;UDP Port 53 &lt;br&gt;Open?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="210" width="80" height="60" as="geometry" />
+        <mxCell id="AUVioqDt2yypRba_NBfS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-26" target="s764aHb25zaueQciMdZv-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-30" value="DNS Server detected - Run DNS probing tests (e.g. https://securitytrails.com/blog/most-popular-types-dns-attacks )" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="315" y="260" width="210" height="50" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-26" value="&lt;font face=&quot;helvetica&quot;&gt;TCP Port 21 Open?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="170" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-31" value="&lt;font face=&quot;helvetica&quot;&gt;TCP Ports 25, 465, 587&lt;br&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20face%3D%26quot%3Bhelvetica%26quot%3B%26gt%3BUDP%20Port%2053%20%26lt%3Bbr%26gt%3BOpen%3F%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22rhombus%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22380%22%20y%3D%22210%22%20width%3D%2280%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20face%3D%26quot%3Bhelvetica%26quot%3B%26gt%3BUDP%20Port%2053%20%26lt%3Bbr%26gt%3BOpen%3F%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22rhombus%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22380%22%20y%3D%22210%22%20width%3D%2280%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="120" width="80" height="60" as="geometry" />
+        <mxCell id="AUVioqDt2yypRba_NBfS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-29" target="s764aHb25zaueQciMdZv-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-32" value="SMTP server detected. Attempt send emails unauthorised." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="170" width="210" height="50" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-29" value="&lt;font face=&quot;helvetica&quot;&gt;UDP Port 53 &lt;br&gt;Open?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="227.5" y="200" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-33" value="&lt;font face=&quot;helvetica&quot;&gt;TCP Port 110, 995&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="40" width="80" height="60" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-30" value="DNS Server detected - Run DNS probing tests (e.g.DNS hijack attack,&amp;nbsp;DNS tunneling,&amp;nbsp;DNS flood attack &amp;nbsp;)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="166.25" y="390" width="232.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-34" value="POP3 email server detected. Attempt to login and retrieve mailbox contents" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="80" width="210" height="50" as="geometry" />
+        <mxCell id="AUVioqDt2yypRba_NBfS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-31" target="s764aHb25zaueQciMdZv-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-35" value="&lt;font face=&quot;helvetica&quot;&gt;TCP Port 143, 993&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="-80" width="80" height="60" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-31" value="&lt;font face=&quot;helvetica&quot;&gt;TCP Ports 25,&lt;br&gt;&amp;nbsp;465, 587&lt;br&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20face%3D%26quot%3Bhelvetica%26quot%3B%26gt%3BUDP%20Port%2053%20%26lt%3Bbr%26gt%3BOpen%3F%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22rhombus%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22380%22%20y%3D%22210%22%20width%3D%2280%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20face%3D%26quot%3Bhelvetica%26quot%3B%26gt%3BUDP%20Port%2053%20%26lt%3Bbr%26gt%3BOpen%3F%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22rhombus%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22380%22%20y%3D%22210%22%20width%3D%2280%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="160" width="106" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-36" value="IMAP email server detected. Attempt to login and retrieve mailbox contents" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="-40" width="210" height="50" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-32" value="SMTP server detected. Attempt send emails unauthorised." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="328" y="290" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-38" value="Any UDP port?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" width="80" height="80" as="geometry" />
+        <mxCell id="AUVioqDt2yypRba_NBfS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-33" target="s764aHb25zaueQciMdZv-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-39" value="UDP DDOS Amplification Attack" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="40" width="120" height="60" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-33" value="&lt;font face=&quot;helvetica&quot;&gt;TCP Port &lt;br&gt;110, 995&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="481" y="90" width="88" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-40" value="&lt;font face=&quot;helvetica&quot;&gt;TCP Ports 5800-5820&lt;br&gt;5900-5920?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="-180" width="80" height="60" as="geometry" />
+        <mxCell id="AUVioqDt2yypRba_NBfS-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-34" target="s764aHb25zaueQciMdZv-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-42" value="VNC Server Identified. Attempt to discover misconfiguration or week credentials and gain access to the remote machine." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-230" width="210" height="60" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-34" value="POP3 email server detected. Attempt to login and retrieve mailbox contents" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="105" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-43" value="Brute Force attack - Credential stuffing attack. Attempt to find weak passwords" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="-200" width="210" height="60" as="geometry" />
+        <mxCell id="AUVioqDt2yypRba_NBfS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-35" target="s764aHb25zaueQciMdZv-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-44" value="&lt;font face=&quot;helvetica&quot;&gt;TCP Port 3306 Open?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="-320" width="80" height="60" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-35" value="&lt;font face=&quot;helvetica&quot;&gt;TCP Port&lt;br&gt;&amp;nbsp;143, 993&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="10" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="s764aHb25zaueQciMdZv-45" value="MySQL/MariaDB Server Identified." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="-340" width="210" height="60" as="geometry" />
+        <mxCell id="s764aHb25zaueQciMdZv-36" value="IMAP email server detected. Attempt to login and retrieve mailbox contents" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="20" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-38" value="Any UDP port?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="-120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-39" value="UDP DDOS Amplification Attack" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-210" y="-130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUVioqDt2yypRba_NBfS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-40" target="s764aHb25zaueQciMdZv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-40" value="&lt;font face=&quot;helvetica&quot;&gt;TCP Ports&lt;br&gt;&amp;nbsp;5800-5820&lt;br&gt;5900-5920?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="-70" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-42" value="VNC Server Identified. Attempt to discover misconfiguration or week credentials and gain access to the remote machine." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="-50" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-43" value="Brute Force attack - Credential stuffing attack. Attempt to find weak passwords" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="160" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUVioqDt2yypRba_NBfS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-44" target="s764aHb25zaueQciMdZv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-44" value="&lt;font face=&quot;helvetica&quot;&gt;TCP Port &lt;br&gt;3306 Open?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="391" y="-155" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s764aHb25zaueQciMdZv-45" value="MySQL/MariaDB Server Identified." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="-140" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUVioqDt2yypRba_NBfS-9" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-30" target="s764aHb25zaueQciMdZv-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="310" as="sourcePoint" />
+            <mxPoint x="150" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUVioqDt2yypRba_NBfS-10" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="380" as="sourcePoint" />
+            <mxPoint x="432.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUVioqDt2yypRba_NBfS-14" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-34" target="s764aHb25zaueQciMdZv-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="443" y="300" as="sourcePoint" />
+            <mxPoint x="442.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUVioqDt2yypRba_NBfS-17" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-36" target="s764aHb25zaueQciMdZv-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="140" as="sourcePoint" />
+            <mxPoint x="579" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUVioqDt2yypRba_NBfS-20" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-42" target="s764aHb25zaueQciMdZv-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="55" as="sourcePoint" />
+            <mxPoint x="560" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUVioqDt2yypRba_NBfS-22" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s764aHb25zaueQciMdZv-45" target="s764aHb25zaueQciMdZv-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="-10" as="sourcePoint" />
+            <mxPoint x="520" y="-10" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
